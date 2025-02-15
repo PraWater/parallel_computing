@@ -1,0 +1,350 @@
+Testcase 1: thread_count =  1, m = 8000000, n = 8, padding = false, barrier = false 
+Thread 0 > Elapsed time = 2.302668e-01 seconds at 0.555877 GFLOPS
+
+GFLOPS: 0.555474
+
+----------------------------------------------------------------------------------------------
+
+Testcase 2: thread_count =  1, m = 8000, n = 8000, padding = false, barrier = false 
+Thread 0 > Elapsed time = 2.412450e-01 seconds at 0.530581 GFLOPS
+
+GFLOPS: 0.530343
+
+----------------------------------------------------------------------------------------------
+
+Testcase 3: thread_count =  1, m = 8, n = 8000000, padding = false, barrier = false 
+Thread 0 > Elapsed time = 2.411211e-01 seconds at 0.530854 GFLOPS
+
+GFLOPS: 0.530628
+
+----------------------------------------------------------------------------------------------
+
+Testcase 4: thread_count =  2, m = 8000000, n = 8, padding = false, barrier = false 
+Thread 0 > Elapsed time = 1.146178e-01 seconds at 0.558377 GFLOPS
+Thread 1 > Elapsed time = 1.157470e-01 seconds at 0.552930 GFLOPS
+
+GFLOPS: 1.104420
+
+----------------------------------------------------------------------------------------------
+
+Testcase 5: thread_count =  2, m = 8000, n = 8000, padding = false, barrier = false 
+Thread 0 > Elapsed time = 1.207650e-01 seconds at 0.529955 GFLOPS
+Thread 1 > Elapsed time = 1.208899e-01 seconds at 0.529407 GFLOPS
+
+GFLOPS: 1.057240
+
+----------------------------------------------------------------------------------------------
+
+Testcase 6: thread_count =  2, m = 8, n = 8000000, padding = false, barrier = false 
+Thread 0 > Elapsed time = 5.763271e-01 seconds at 0.111048 GFLOPS
+Thread 1 > Elapsed time = 5.813131e-01 seconds at 0.110096 GFLOPS
+
+GFLOPS: 0.220151
+
+----------------------------------------------------------------------------------------------
+
+Testcase 7: thread_count =  4, m = 8000000, n = 8, padding = false, barrier = false 
+Thread 1 > Elapsed time = 5.837011e-02 seconds at 0.548226 GFLOPS
+Thread 0 > Elapsed time = 5.840302e-02 seconds at 0.547917 GFLOPS
+Thread 2 > Elapsed time = 6.024885e-02 seconds at 0.531130 GFLOPS
+Thread 3 > Elapsed time = 6.078792e-02 seconds at 0.526420 GFLOPS
+
+GFLOPS: 2.099153
+
+----------------------------------------------------------------------------------------------
+
+Testcase 8: thread_count =  4, m = 8000, n = 8000, padding = false, barrier = false 
+Thread 0 > Elapsed time = 6.027007e-02 seconds at 0.530943 GFLOPS
+Thread 3 > Elapsed time = 6.079197e-02 seconds at 0.526385 GFLOPS
+Thread 1 > Elapsed time = 6.099987e-02 seconds at 0.524591 GFLOPS
+Thread 2 > Elapsed time = 6.124210e-02 seconds at 0.522516 GFLOPS
+
+GFLOPS: 2.086013
+
+----------------------------------------------------------------------------------------------
+
+Testcase 9: thread_count =  4, m = 8, n = 8000000, padding = false, barrier = false 
+Thread 3 > Elapsed time = 6.047797e-02 seconds at 0.529118 GFLOPS
+Thread 0 > Elapsed time = 9.078641e-01 seconds at 0.035248 GFLOPS
+Thread 1 > Elapsed time = 9.211640e-01 seconds at 0.034739 GFLOPS
+Thread 2 > Elapsed time = 9.221098e-01 seconds at 0.034703 GFLOPS
+
+GFLOPS: 0.138793
+
+----------------------------------------------------------------------------------------------
+
+Testcase 10: thread_count =  8, m = 8000000, n = 8, padding = false, barrier = false 
+Thread 4 > Elapsed time = 3.523493e-02 seconds at 0.454095 GFLOPS
+Thread 3 > Elapsed time = 3.552794e-02 seconds at 0.450350 GFLOPS
+Thread 1 > Elapsed time = 3.613210e-02 seconds at 0.442820 GFLOPS
+Thread 2 > Elapsed time = 3.630090e-02 seconds at 0.440760 GFLOPS
+Thread 5 > Elapsed time = 3.687692e-02 seconds at 0.433876 GFLOPS
+Thread 7 > Elapsed time = 3.669500e-02 seconds at 0.436027 GFLOPS
+Thread 0 > Elapsed time = 3.761196e-02 seconds at 0.425397 GFLOPS
+Thread 6 > Elapsed time = 4.088593e-02 seconds at 0.391333 GFLOPS
+
+GFLOPS: 3.092770
+
+----------------------------------------------------------------------------------------------
+
+Testcase 11: thread_count =  8, m = 8000, n = 8000, padding = false, barrier = false 
+Thread 2 > Elapsed time = 3.126502e-02 seconds at 0.511754 GFLOPS
+Thread 0 > Elapsed time = 3.137302e-02 seconds at 0.509992 GFLOPS
+Thread 1 > Elapsed time = 3.163505e-02 seconds at 0.505768 GFLOPS
+Thread 7 > Elapsed time = 3.226805e-02 seconds at 0.495847 GFLOPS
+Thread 5 > Elapsed time = 3.273392e-02 seconds at 0.488790 GFLOPS
+Thread 3 > Elapsed time = 3.282285e-02 seconds at 0.487465 GFLOPS
+Thread 6 > Elapsed time = 3.280091e-02 seconds at 0.487791 GFLOPS
+Thread 4 > Elapsed time = 3.287697e-02 seconds at 0.486663 GFLOPS
+
+GFLOPS: 3.865106
+
+----------------------------------------------------------------------------------------------
+
+Testcase 12: thread_count =  8, m = 8, n = 8000000, padding = false, barrier = false 
+Thread 7 > Elapsed time = 2.519641e-01 seconds at 0.063501 GFLOPS
+Thread 6 > Elapsed time = 2.560370e-01 seconds at 0.062491 GFLOPS
+Thread 2 > Elapsed time = 8.704541e-01 seconds at 0.018381 GFLOPS
+Thread 3 > Elapsed time = 9.093680e-01 seconds at 0.017595 GFLOPS
+Thread 5 > Elapsed time = 9.390109e-01 seconds at 0.017039 GFLOPS
+Thread 4 > Elapsed time = 9.595890e-01 seconds at 0.016674 GFLOPS
+Thread 1 > Elapsed time = 9.697540e-01 seconds at 0.016499 GFLOPS
+Thread 0 > Elapsed time = 9.705741e-01 seconds at 0.016485 GFLOPS
+
+GFLOPS: 0.131860
+
+----------------------------------------------------------------------------------------------
+
+Testcase 13: thread_count =  1, m = 8000000, n = 8, padding = true, barrier = false 
+Thread 0 > Elapsed time = 2.816751e-01 seconds at 0.454424 GFLOPS
+
+GFLOPS: 0.454075
+
+----------------------------------------------------------------------------------------------
+
+Testcase 14: thread_count =  1, m = 8000, n = 8000, padding = true, barrier = false 
+Thread 0 > Elapsed time = 2.412848e-01 seconds at 0.530493 GFLOPS
+
+GFLOPS: 0.530326
+
+----------------------------------------------------------------------------------------------
+
+Testcase 15: thread_count =  1, m = 8, n = 8000000, padding = true, barrier = false 
+Thread 0 > Elapsed time = 2.419860e-01 seconds at 0.528956 GFLOPS
+
+GFLOPS: 0.528731
+
+----------------------------------------------------------------------------------------------
+
+Testcase 16: thread_count =  2, m = 8000000, n = 8, padding = true, barrier = false 
+Thread 0 > Elapsed time = 1.534021e-01 seconds at 0.417204 GFLOPS
+Thread 1 > Elapsed time = 1.538210e-01 seconds at 0.416068 GFLOPS
+
+GFLOPS: 0.831547
+
+----------------------------------------------------------------------------------------------
+
+Testcase 17: thread_count =  2, m = 8000, n = 8000, padding = true, barrier = false 
+Thread 0 > Elapsed time = 1.208889e-01 seconds at 0.529412 GFLOPS
+Thread 1 > Elapsed time = 1.228461e-01 seconds at 0.520977 GFLOPS
+
+GFLOPS: 1.040786
+
+----------------------------------------------------------------------------------------------
+
+Testcase 18: thread_count =  2, m = 8, n = 8000000, padding = true, barrier = false 
+Thread 1 > Elapsed time = 1.213138e-01 seconds at 0.527557 GFLOPS
+Thread 0 > Elapsed time = 1.218939e-01 seconds at 0.525047 GFLOPS
+
+GFLOPS: 1.049291
+
+----------------------------------------------------------------------------------------------
+
+Testcase 19: thread_count =  4, m = 8000000, n = 8, padding = true, barrier = false 
+Thread 2 > Elapsed time = 1.125638e-01 seconds at 0.284283 GFLOPS
+Thread 1 > Elapsed time = 1.127238e-01 seconds at 0.283880 GFLOPS
+Thread 3 > Elapsed time = 1.130099e-01 seconds at 0.283161 GFLOPS
+Thread 0 > Elapsed time = 1.143060e-01 seconds at 0.279950 GFLOPS
+
+GFLOPS: 1.118931
+
+----------------------------------------------------------------------------------------------
+
+Testcase 20: thread_count =  4, m = 8000, n = 8000, padding = true, barrier = false 
+Thread 1 > Elapsed time = 6.053805e-02 seconds at 0.528593 GFLOPS
+Thread 0 > Elapsed time = 6.056499e-02 seconds at 0.528358 GFLOPS
+Thread 2 > Elapsed time = 6.191897e-02 seconds at 0.516804 GFLOPS
+Thread 3 > Elapsed time = 6.208992e-02 seconds at 0.515382 GFLOPS
+
+GFLOPS: 2.057182
+
+----------------------------------------------------------------------------------------------
+
+Testcase 21: thread_count =  4, m = 8, n = 8000000, padding = true, barrier = false 
+Thread 3 > Elapsed time = 6.040001e-02 seconds at 0.529801 GFLOPS
+Thread 2 > Elapsed time = 6.061411e-02 seconds at 0.527930 GFLOPS
+Thread 1 > Elapsed time = 6.097603e-02 seconds at 0.524796 GFLOPS
+Thread 0 > Elapsed time = 6.121612e-02 seconds at 0.522738 GFLOPS
+
+GFLOPS: 2.087481
+
+----------------------------------------------------------------------------------------------
+
+Testcase 22: thread_count =  8, m = 8000000, n = 8, padding = true, barrier = false 
+Thread 6 > Elapsed time = 1.398470e-01 seconds at 0.114411 GFLOPS
+Thread 2 > Elapsed time = 1.405921e-01 seconds at 0.113804 GFLOPS
+Thread 0 > Elapsed time = 1.429570e-01 seconds at 0.111922 GFLOPS
+Thread 4 > Elapsed time = 1.429770e-01 seconds at 0.111906 GFLOPS
+Thread 3 > Elapsed time = 1.431570e-01 seconds at 0.111765 GFLOPS
+Thread 1 > Elapsed time = 1.437299e-01 seconds at 0.111320 GFLOPS
+Thread 7 > Elapsed time = 1.433969e-01 seconds at 0.111578 GFLOPS
+Thread 5 > Elapsed time = 1.441090e-01 seconds at 0.111027 GFLOPS
+
+GFLOPS: 0.886059
+
+----------------------------------------------------------------------------------------------
+
+Testcase 23: thread_count =  8, m = 8000, n = 8000, padding = true, barrier = false 
+Thread 1 > Elapsed time = 3.134894e-02 seconds at 0.510384 GFLOPS
+Thread 3 > Elapsed time = 3.132296e-02 seconds at 0.510807 GFLOPS
+Thread 2 > Elapsed time = 3.138614e-02 seconds at 0.509779 GFLOPS
+Thread 0 > Elapsed time = 3.292298e-02 seconds at 0.485983 GFLOPS
+Thread 6 > Elapsed time = 3.275108e-02 seconds at 0.488533 GFLOPS
+Thread 4 > Elapsed time = 3.299499e-02 seconds at 0.484922 GFLOPS
+Thread 7 > Elapsed time = 3.286982e-02 seconds at 0.486769 GFLOPS
+Thread 5 > Elapsed time = 3.327203e-02 seconds at 0.480884 GFLOPS
+
+GFLOPS: 3.813843
+
+----------------------------------------------------------------------------------------------
+
+Testcase 24: thread_count =  8, m = 8, n = 8000000, padding = true, barrier = false 
+Thread 0 > Elapsed time = 3.167391e-02 seconds at 0.505148 GFLOPS
+Thread 1 > Elapsed time = 3.167486e-02 seconds at 0.505132 GFLOPS
+Thread 6 > Elapsed time = 3.140807e-02 seconds at 0.509423 GFLOPS
+Thread 4 > Elapsed time = 3.174591e-02 seconds at 0.504002 GFLOPS
+Thread 3 > Elapsed time = 3.190398e-02 seconds at 0.501505 GFLOPS
+Thread 2 > Elapsed time = 3.196001e-02 seconds at 0.500626 GFLOPS
+Thread 5 > Elapsed time = 3.203487e-02 seconds at 0.499456 GFLOPS
+Thread 7 > Elapsed time = 3.445411e-02 seconds at 0.464386 GFLOPS
+
+GFLOPS: 3.671414
+
+----------------------------------------------------------------------------------------------
+
+Testcase 25: thread_count =  1, m = 8000000, n = 8, padding = false, barrier = true 
+Thread 0 > Elapsed time = 3.361201e-01 seconds at 0.380816 GFLOPS
+
+GFLOPS: 0.380689
+
+----------------------------------------------------------------------------------------------
+
+Testcase 26: thread_count =  1, m = 8000, n = 8000, padding = false, barrier = true 
+Thread 0 > Elapsed time = 2.423551e-01 seconds at 0.528151 GFLOPS
+
+GFLOPS: 0.527807
+
+----------------------------------------------------------------------------------------------
+
+Testcase 27: thread_count =  1, m = 8, n = 8000000, padding = false, barrier = true 
+Thread 0 > Elapsed time = 2.412372e-01 seconds at 0.530598 GFLOPS
+
+GFLOPS: 0.530271
+
+----------------------------------------------------------------------------------------------
+
+Testcase 28: thread_count =  2, m = 8000000, n = 8, padding = false, barrier = true 
+Thread 0 > Elapsed time = 1.906998e+01 seconds at 0.003356 GFLOPS
+Thread 1 > Elapsed time = 1.906997e+01 seconds at 0.003356 GFLOPS
+
+GFLOPS: 0.006712
+
+----------------------------------------------------------------------------------------------
+
+Testcase 29: thread_count =  2, m = 8000, n = 8000, padding = false, barrier = true 
+Thread 0 > Elapsed time = 1.392882e-01 seconds at 0.459479 GFLOPS
+Thread 1 > Elapsed time = 1.392829e-01 seconds at 0.459496 GFLOPS
+
+GFLOPS: 0.918182
+
+----------------------------------------------------------------------------------------------
+
+Testcase 30: thread_count =  2, m = 8, n = 8000000, padding = false, barrier = true 
+Thread 0 > Elapsed time = 5.287731e-01 seconds at 0.121035 GFLOPS
+Thread 1 > Elapsed time = 5.287609e-01 seconds at 0.121038 GFLOPS
+
+GFLOPS: 0.242000
+
+----------------------------------------------------------------------------------------------
+
+Testcase 31: thread_count =  4, m = 8000000, n = 8, padding = false, barrier = true 
+Thread 0 > Elapsed time = 1.281562e+01 seconds at 0.002497 GFLOPS
+Thread 3 > Elapsed time = 1.281555e+01 seconds at 0.002497 GFLOPS
+Thread 2 > Elapsed time = 1.281554e+01 seconds at 0.002497 GFLOPS
+Thread 1 > Elapsed time = 1.281561e+01 seconds at 0.002497 GFLOPS
+
+GFLOPS: 0.009988
+
+----------------------------------------------------------------------------------------------
+
+Testcase 32: thread_count =  4, m = 8000, n = 8000, padding = false, barrier = true 
+Thread 3 > Elapsed time = 7.500291e-02 seconds at 0.426650 GFLOPS
+Thread 1 > Elapsed time = 7.504106e-02 seconds at 0.426433 GFLOPS
+Thread 0 > Elapsed time = 7.505798e-02 seconds at 0.426337 GFLOPS
+Thread 2 > Elapsed time = 7.502198e-02 seconds at 0.426542 GFLOPS
+
+GFLOPS: 1.702741
+
+----------------------------------------------------------------------------------------------
+
+Testcase 33: thread_count =  4, m = 8, n = 8000000, padding = false, barrier = true 
+Thread 2 > Elapsed time = 8.829589e-01 seconds at 0.036242 GFLOPS
+Thread 0 > Elapsed time = 8.829970e-01 seconds at 0.036240 GFLOPS
+Thread 1 > Elapsed time = 8.829789e-01 seconds at 0.036241 GFLOPS
+Thread 3 > Elapsed time = 8.829520e-01 seconds at 0.036242 GFLOPS
+
+GFLOPS: 0.144945
+
+----------------------------------------------------------------------------------------------
+
+Testcase 34: thread_count =  8, m = 8000000, n = 8, padding = false, barrier = true 
+Thread 1 > Elapsed time = 9.629401e+00 seconds at 0.001662 GFLOPS
+Thread 5 > Elapsed time = 9.629148e+00 seconds at 0.001662 GFLOPS
+Thread 4 > Elapsed time = 9.629248e+00 seconds at 0.001662 GFLOPS
+Thread 7 > Elapsed time = 9.628839e+00 seconds at 0.001662 GFLOPS
+Thread 3 > Elapsed time = 9.629327e+00 seconds at 0.001662 GFLOPS
+Thread 6 > Elapsed time = 9.629006e+00 seconds at 0.001662 GFLOPS
+Thread 0 > Elapsed time = 9.629417e+00 seconds at 0.001662 GFLOPS
+Thread 2 > Elapsed time = 9.629374e+00 seconds at 0.001662 GFLOPS
+
+GFLOPS: 0.013292
+
+----------------------------------------------------------------------------------------------
+
+Testcase 35: thread_count =  8, m = 8000, n = 8000, padding = false, barrier = true 
+Thread 0 > Elapsed time = 4.907990e-02 seconds at 0.325999 GFLOPS
+Thread 6 > Elapsed time = 4.886222e-02 seconds at 0.327451 GFLOPS
+Thread 7 > Elapsed time = 4.885507e-02 seconds at 0.327499 GFLOPS
+Thread 2 > Elapsed time = 4.903102e-02 seconds at 0.326324 GFLOPS
+Thread 3 > Elapsed time = 4.901218e-02 seconds at 0.326449 GFLOPS
+Thread 4 > Elapsed time = 4.894018e-02 seconds at 0.326930 GFLOPS
+Thread 1 > Elapsed time = 4.907203e-02 seconds at 0.326051 GFLOPS
+Thread 5 > Elapsed time = 4.890704e-02 seconds at 0.327151 GFLOPS
+
+GFLOPS: 2.598299
+
+----------------------------------------------------------------------------------------------
+
+Testcase 36: thread_count =  8, m = 8, n = 8000000, padding = false, barrier = true 
+Thread 0 > Elapsed time = 9.631460e-01 seconds at 0.016612 GFLOPS
+Thread 6 > Elapsed time = 9.629509e-01 seconds at 0.016616 GFLOPS
+Thread 3 > Elapsed time = 9.630971e-01 seconds at 0.016613 GFLOPS
+Thread 7 > Elapsed time = 9.629419e-01 seconds at 0.016616 GFLOPS
+Thread 5 > Elapsed time = 9.629960e-01 seconds at 0.016615 GFLOPS
+Thread 4 > Elapsed time = 9.630260e-01 seconds at 0.016614 GFLOPS
+Thread 2 > Elapsed time = 9.631269e-01 seconds at 0.016613 GFLOPS
+Thread 1 > Elapsed time = 9.631581e-01 seconds at 0.016612 GFLOPS
+
+GFLOPS: 0.132871
+
+----------------------------------------------------------------------------------------------
